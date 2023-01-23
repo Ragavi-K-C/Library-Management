@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="../Jawa/ListView.css">
+        <link rel="stylesheet" href="../Jawa/Navbar.css">
+        <link rel="stylesheet" href="../Jawa/Boot-Style/bootstrap-min.css">
+        <link rel="stylesheet" href="../Jawa/Boot-Style/font-awesome.css">
+        <script src="../Jawa/Boot-JS/bootstrap-min.js"></script>
+        <script src="../Jawa/Boot-JS/Propper-min.js"></script>
+        <script src="../Jawa/Boot-JS/bootstrap-min-slim.js"></script>
+    </head>
+    <body>
+      <nav class="navbar">
+        <div class="brand-title"></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="../Jawa/UserLogin.html">Home</a></li>
+            <li><a href="../Jawa/BooksTaken.html">BooksTaken</a></li>
+         
+          </ul>
+        </div>
+      </nav>
+      <br>
+       <h3 align="center">Welcome to our Library</h3>
+        <div class="container">
+        <div class="form-group pull-right">
+            <input type="text" class="search form-control" placeholder="Search  book ">
+        </div>
+        <span class="counter pull-right"></span>
+        <table class="table table-hover table-bordered results">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th class="col-md-5 col-xs-5">BookName</th>
+              <th class="col-md-4 col-xs-4">Author Name</th>
+              <th class="col-md-3 col-xs-3">Published Year</th>
+             <th class="col-md-5 col-xs-5">Category</th>
+             <th class="col-md-5 col-xs-5">Copies</th>
+             <th class="col-md-5 col-xs-5">Availability</th>              
+            </tr>
+            <tr class="warning no-result">
+              <td colspan="4"><i class="fa fa-warning"></i> No result</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Basic of C programming</td>
+              <td>Ian Batanu</td>
+              <td>2000 </td>  
+              <td>Computer science </td>             
+              <td>2</td>            
+              <td> No</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Basic of Java programming</td>
+              <td>Alex</td>
+              <td>1999 </td>  
+              <td>Computer science </td>             
+              <td> 3</td>            
+              <td> Yes</td>
+              
+             
+            </tr>
+          <tr>
+              <th scope="row">3</th>
+              <td>Digital electornics</td>
+              <td>Pradeep K.Sham</td>
+              <td>2002 </td>  
+              <td>Electronics</td>             
+              <td>2</td>            
+              <td> No</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Solid basics</td>
+              <td>Dennis</td>
+              <td>1989 </td>  
+              <td>Civil</td>             
+              <td>1</td>            
+              <td> Yes</td>
+              
+             
+            </tr>
+           
+          </tbody>
+        </table>
+    </div>
+        <script src="../Jawa/Index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../Jawa/ListView.css">
+    <link rel="stylesheet" href="../Jawa/Navbar.css">
+    <link rel="stylesheet" href="../Jawa/Boot-Style/bootstrap-min.css">
+    <link rel="stylesheet" href="../Jawa/Boot-Style/font-awesome.css">
+    <script src="../Jawa/Boot-JS/bootstrap-min.js"></script>
+    <script src="../Jawa/Boot-JS/Propper-min.js"></script>
+    <script src="../Jawa/Boot-JS/bootstrap-min-slim.js"></script>=
+    <link rel="stylesheet" href="../Jawa/Navbar.css">
+</head>
+<style>
+
+    /* Scroll to Top */
+    #scroll-to-top {
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="brand-title"></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+              <li><a href="../Jawa/UserLogin.html">Home</a></li>
+              <li><a href="../Jawa/BooksTaken.html">BooksTaken</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+    <br>
+       
+        <div class="container">
+        <span class="counter pull-right"></span>
+        <table class="table table-hover table-bordered results">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th class="col-md-5 col-xs-5">BookName</th>
+              <th class="col-md-4 col-xs-4">Author Name</th>
+              <th class="col-md-3 col-xs-3">Purchased Date</th>
+             <th class="col-md-5 col-xs-5">Returned Dtae</th>
+             <th class="col-md-5 col-xs-5">Fine</th>
+                          
+            </tr>
+            <tr class="warning no-result">
+              <td colspan="4"><i class="fa fa-warning"></i> No result</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Basic of C programming</td>
+              <td>Ian Batanu</td>
+              <td>10-10-2022 </td>  
+              <td>13-10-2022 </td>             
+              <td>Rs.0</td>            
+             
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Basic of Java programming</td>
+              <td>Alex</td>
+              <td>11-10-2022 </td>  
+              <td>20-11-2022 </td>             
+              <td>Rs.50</td>
+              
+             
+            </tr>
+         
+           
+          </tbody>
+        </table>
+    </div>
+        <script src="../Jawa/Index.js"></script>
+    </body>
+</html>
