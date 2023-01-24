@@ -6,10 +6,10 @@ function moveToNext() {
     
    
         if (Name.includes(substring)&& PassWord == Name) {
-            window.location.href = "../Jawa/List.html";
+            window.location.href = "List.html";
         }
        else if(Name.includes(substring1)&& PassWord==Name){
-                window.location.href = "../Jawa/UserLogin.html";
+                window.location.href = "UserLogin.html";
         }
 
     
